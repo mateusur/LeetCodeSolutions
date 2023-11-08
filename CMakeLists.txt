@@ -4,5 +4,6 @@ project(Leetcode)
 add_subdirectory(TwoSum)
 add_subdirectory(RomanToInteger)
 add_subdirectory(LongestCommonPrefix)
+add_subdirectory(ValidParentheses)
 
 
