@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(ConvertSortedArrayToBinarySearchTree)
+
+add_executable(ConvertSortedArrayToBinarySearchTree main.cpp)
+include_directories("../MyLibrary")
+target_link_libraries(ConvertSortedArrayToBinarySearchTree TreeNode)
