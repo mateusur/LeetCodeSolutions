@@ -12,11 +12,6 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-vector<int> inorderTraversal(TreeNode *root) {
-    vector<int> anwser;
-    getInorderTraversalUtil(root, anwser);
-    return anwser;
-}
 void getInorderTraversalUtil(TreeNode *root, vector<int> &traversal) {
     if (root == nullptr) {
       return;
@@ -24,6 +19,12 @@ void getInorderTraversalUtil(TreeNode *root, vector<int> &traversal) {
     getInorderTraversalUtil(root->left, traversal);
     traversal.push_back(root->val);
     getInorderTraversalUtil(root->right, traversal);
+}
+
+vector<int> inorderTraversal(TreeNode *root) {
+    vector<int> anwser;
+    getInorderTraversalUtil(root, anwser);
+    return anwser;
 }
 int main() {
   TreeNode n1(1);
