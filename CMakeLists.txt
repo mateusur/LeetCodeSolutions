@@ -28,4 +28,7 @@ add_subdirectory(NumberOf1Bits)
 add_subdirectory(HappyNumber)
 add_subdirectory(ContainsDuplicate)
 add_subdirectory(ValidAnagram)
-add_subdirectory(MissingNumber)
+add_subdirectory(MissingNumber)      
+
+add_subdirectory(334IncreasingTripletSubsequence)
+add_subdirectory(1004MaxConsecutiveOnesIII)
