@@ -32,3 +32,4 @@ add_subdirectory(MissingNumber)
 
 add_subdirectory(334IncreasingTripletSubsequence)
 add_subdirectory(1004MaxConsecutiveOnesIII)
+add_subdirectory(1493LongestSubarrayof1sAfterDeletingOneElement)
