@@ -1,6 +1,19 @@
 cmake_minimum_required(VERSION 3.10)
 project(Leetcode)
 
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/b514bdc898e2951020cbdca1304b75f5950d1f59.zip
+  )
+# For Windows: Prevent overriding the parent project's compiler/linker settings
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+enable_testing()
+
 add_subdirectory(MyLibrary)
 add_subdirectory(TwoSum)
 add_subdirectory(RomanToInteger)
@@ -30,9 +43,10 @@ add_subdirectory(ContainsDuplicate)
 add_subdirectory(ValidAnagram)
 add_subdirectory(MissingNumber)      
 
-add_subdirectory(334IncreasingTripletSubsequence)
 add_subdirectory(1004MaxConsecutiveOnesIII)
 add_subdirectory(1493LongestSubarrayof1sAfterDeletingOneElement)
 add_subdirectory(1456MaximumNumberofVowelsinaSubstringofGivenLength)
 add_subdirectory(724FindPivotIndex)
 add_subdirectory(1657DetermineifTwoStringsAreClose)
+add_subdirectory(2390RemovingStarsFromaString)
+
