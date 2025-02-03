@@ -1,0 +1,6 @@
+add_executable(735AsteroidCollision_test main_test.cpp)
+
+target_link_libraries(735AsteroidCollision_test GTest::gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(735AsteroidCollision_test)
