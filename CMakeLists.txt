@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.25)
 project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -13,6 +13,7 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 enable_testing()
+set(CMAKE_CXX_CLANG_TIDY clang-tidy)
 
 add_subdirectory(MyLibrary)
 add_subdirectory(TwoSum)
