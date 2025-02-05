@@ -1,0 +1,8 @@
+add_executable(2352EqualRowandColumnPairs_test main_test.cpp)
+target_link_libraries(2352EqualRowandColumnPairs_test GTest::gtest_main)
+include(GoogleTest)
+gtest_discover_tests(2352EqualRowandColumnPairs_test)
+# 
+add_executable(2352EqualRowandColumnPairsHash_test mainHash_test.cpp)
+target_link_libraries(2352EqualRowandColumnPairsHash_test GTest::gtest_main)
+gtest_discover_tests(2352EqualRowandColumnPairsHash_test)

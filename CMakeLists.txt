@@ -52,4 +52,4 @@ add_subdirectory(1657DetermineifTwoStringsAreClose)
 add_subdirectory(2390RemovingStarsFromaString)
 add_subdirectory(735AsteroidCollision)
 add_subdirectory(394DecodeString)
-
+add_subdirectory(2352EqualRowandColumnPairs)
