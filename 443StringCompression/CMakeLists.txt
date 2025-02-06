@@ -1,0 +1,6 @@
+add_executable(443StringCompression_test main_test.cpp)
+
+target_link_libraries(443StringCompression_test GTest::gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(443StringCompression_test)
