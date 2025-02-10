@@ -1,0 +1,1 @@
+add_executable(2095DeletetheMiddleNodeofaLinkedList main.cpp)

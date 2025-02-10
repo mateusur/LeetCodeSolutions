@@ -56,4 +56,5 @@ add_subdirectory(2352EqualRowandColumnPairs)
 add_subdirectory(443StringCompression)
 add_subdirectory(649Dota2Senate)
 add_subdirectory(605CanPlaceFlowers)
+add_subdirectory(2095DeletetheMiddleNodeofaLinkedList)
 
