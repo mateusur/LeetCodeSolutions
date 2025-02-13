@@ -58,4 +58,5 @@ add_subdirectory(649Dota2Senate)
 add_subdirectory(605CanPlaceFlowers)
 add_subdirectory(2095DeletetheMiddleNodeofaLinkedList)
 add_subdirectory(328OddEvenLinkedList)
+add_subdirectory(2130MaximumTwinSumofaLinkedList)
 
