@@ -60,4 +60,5 @@ add_subdirectory(2095DeletetheMiddleNodeofaLinkedList)
 add_subdirectory(328OddEvenLinkedList)
 add_subdirectory(2130MaximumTwinSumofaLinkedList)
 add_subdirectory(872LeafSimilarTrees)
+add_subdirectory(1448CountGoodNodesinBinaryTree)
 
