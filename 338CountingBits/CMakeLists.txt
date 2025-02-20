@@ -1,0 +1,4 @@
+add_executable(338CountingBits_test main_test.cpp)
+target_link_libraries(338CountingBits_test GTest::gtest_main)
+include(GoogleTest)
+gtest_discover_tests(338CountingBits_test)
